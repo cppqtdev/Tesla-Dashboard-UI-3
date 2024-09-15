@@ -1,5 +1,108 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>icons/light/background_image.png</file>
+        <file>Style.qml</file>
+        <file>icons/dark/background_image.png</file>
+        <file>icons/main control bar.svg</file>
+        <file>icons/app_icons/zoom.svg</file>
+        <file>icons/app_icons/wiper.svg</file>
+        <file>icons/app_icons/rear-defrost.svg</file>
+        <file>icons/app_icons/bluetooth.svg</file>
+        <file>icons/app_icons/calendar.svg</file>
+        <file>icons/app_icons/caraoke.svg</file>
+        <file>icons/app_icons/dashcam.svg</file>
+        <file>icons/app_icons/seat-warmer.svg</file>
+        <file>icons/app_icons/seat.svg</file>
+        <file>icons/app_icons/front-defrost.svg</file>
+        <file>icons/app_icons/spotify.svg</file>
+        <file>icons/app_icons/steering-wheel-warmer.svg</file>
+        <file>icons/app_icons/messages.svg</file>
+        <file>icons/app_icons/model-3.svg</file>
+        <file>icons/app_icons/toybox.svg</file>
+        <file>icons/app_icons/tunein.svg</file>
+        <file>icons/app_icons/music.svg</file>
+        <file>icons/app_icons/phone.svg</file>
+        <file>icons/app_icons/video.svg</file>
+        <file>icons/app_icons/volume.svg</file>
+        <file>icons/app_icons/radio.svg</file>
+        <file>Components/IconButton.qml</file>
+        <file>Components/Icon.qml</file>
+        <file>Components/StepperControl.qml</file>
+        <file>driving_icons/child safety.svg</file>
+        <file>driving_icons/mirror.svg</file>
+        <file>driving_icons/Recording.svg</file>
+        <file>driving_icons/Sentry.svg</file>
+        <file>driving_icons/steer wheel position.svg</file>
+        <file>icons/app_icons/recording.svg</file>
+        <file>light-icons/Icons/headlight/white.svg</file>
+        <file>light-icons/Headlight2.svg</file>
+        <file>light-icons/Headlights.svg</file>
+        <file>light-icons/Icons.svg</file>
+        <file>light-icons/Property 1=Default.svg</file>
+        <file>light-icons/Property 1=Variant2.svg</file>
+        <file>light-icons/Seatbelt.svg</file>
+        <file>network_icons/Dark Mode=Off.svg</file>
+        <file>network_icons/Dark Mode=On.svg</file>
+        <file>network_icons/icon=alar, color=light.svg</file>
+        <file>network_icons/icon=alarm, color=dark.svg</file>
+        <file>network_icons/icon=bluetooth, color=dark.svg</file>
+        <file>network_icons/icon=bluetooth, color=light.svg</file>
+        <file>network_icons/icon=notification, color=dark.svg</file>
+        <file>network_icons/icon=notification, color=light.svg</file>
+        <file>network_icons/icon=software, color=dark.svg</file>
+        <file>network_icons/icon=software, color=light.svg</file>
+        <file>network_icons/icon=wifi, color=dark.svg</file>
+        <file>network_icons/icon=wifi, color=light.svg</file>
+        <file>other_icons/Icon=chevron down, Color=white.svg</file>
+        <file>other_icons/Icon=chevron up, Color=white.svg</file>
+        <file>other_icons/Icon=controls, Color=white.svg</file>
+        <file>other_icons/Icon=display, Color=white.svg</file>
+        <file>other_icons/Icon=eye, Color=white.svg</file>
+        <file>other_icons/Icon=lights, Color=white.svg</file>
+        <file>other_icons/Icon=lock, Color=white.svg</file>
+        <file>other_icons/Icon=model-3, Color=white.svg</file>
+        <file>other_icons/Icon=navigation, Color=white.svg</file>
+        <file>other_icons/Icon=point, Color=white.svg</file>
+        <file>other_icons/Icon=power, Color=white.svg</file>
+        <file>other_icons/Icon=search, Color=white.svg</file>
+        <file>other_icons/Icon=security, Color=white.svg</file>
+        <file>other_icons/Icon=service, Color=white.svg</file>
+        <file>other_icons/Icon=shop, Color=white.svg</file>
+        <file>other_icons/Icon=software, Color=white.svg</file>
+        <file>other_icons/Icon=steering wheel, Color=white.svg</file>
+        <file>other_icons/Icon=trip, Color=white.svg</file>
+        <file>other_icons/Icon=unlocked, Color=dark.svg</file>
+        <file>icons/stepper_icons/left-arrow.svg</file>
+        <file>icons/stepper_icons/right-arrow.svg</file>
+        <file>Nunito_Sans/NunitoSans-Black.ttf</file>
+        <file>Nunito_Sans/NunitoSans-BlackItalic.ttf</file>
+        <file>Nunito_Sans/NunitoSans-Bold.ttf</file>
+        <file>Nunito_Sans/NunitoSans-BoldItalic.ttf</file>
+        <file>Nunito_Sans/NunitoSans-ExtraBold.ttf</file>
+        <file>Nunito_Sans/NunitoSans-ExtraBoldItalic.ttf</file>
+        <file>Nunito_Sans/NunitoSans-ExtraLight.ttf</file>
+        <file>Nunito_Sans/NunitoSans-ExtraLightItalic.ttf</file>
+        <file>Nunito_Sans/NunitoSans-Italic.ttf</file>
+        <file>Nunito_Sans/NunitoSans-Light.ttf</file>
+        <file>Nunito_Sans/NunitoSans-LightItalic.ttf</file>
+        <file>Nunito_Sans/NunitoSans-Regular.ttf</file>
+        <file>Nunito_Sans/NunitoSans-SemiBold.ttf</file>
+        <file>Nunito_Sans/NunitoSans-SemiBoldItalic.ttf</file>
+        <file>Components/Footer.qml</file>
+        <file>Components/Header.qml</file>
+        <file>Components/TopLeftButtonIconColumn.qml</file>
+        <file>icons/top_header_icons/airbag_.svg</file>
+        <file>icons/top_header_icons/battery.svg</file>
+        <file>icons/top_header_icons/icons.svg</file>
+        <file>icons/top_header_icons/lock.svg</file>
+        <file>icons/top_header_icons/Sentry.svg</file>
+        <file>Components/TopMiddleControl.qml</file>
+        <file>Components/TopLeftControl.qml</file>
+        <file>Components/TopRightControl.qml</file>
+        <file>icons/car_action_icons/lock.svg</file>
+        <file>icons/car_action_icons/Power.svg</file>
+        <file>Components/LaunchPadControl.qml</file>
+        <file>Components/LauncherButton.qml</file>
     </qresource>
 </RCC>
