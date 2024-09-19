@@ -64,7 +64,7 @@ ApplicationWindow {
             Layout.fillHeight: true
             Image {
                 anchors.centerIn: parent
-                source: Style.isDark ? "qrc:/icons/dark/sidebar-light.png" : "qrc:/icons/light/sidebar.png"
+                source: Style.isDark ? "qrc:/icons/light/sidebar.png" : "qrc:/icons/dark/sidebar-light.png"
             }
         }
 
