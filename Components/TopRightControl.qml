@@ -1,7 +1,7 @@
-import QtQuick
-import QtQuick.Controls.Basic
-import QtQuick.Layouts
-import Style
+import QtQuick 2.9
+import QtQuick.Controls 2.5
+import QtQuick.Layouts 1.3
+import Style 1.0
 
 RowLayout {
     spacing: 48
@@ -11,25 +11,25 @@ RowLayout {
         Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
         text: "12:00pm"
         font.family: "Inter"
-        font.pixelSize: 28
+        font.pixelSize: 18
         font.bold: Font.DemiBold
-        color: Style.black20
+        color: Style.isDark ? Style.white : Style.black20
     }
 
     Text {
         Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
         text: "%0ºF".arg(temp)
         font.family: "Inter"
-        font.pixelSize: 28
+        font.pixelSize: 18
         font.bold: Font.DemiBold
-        color: Style.black20
+        color: Style.isDark ? Style.white : Style.black20
     }
 
     Control {
         Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
         implicitHeight: 38
         background: Rectangle {
-            color: Style.black20
+            color: Style.isDark ? Style.alphaColor(Style.black,0.55) : Style.black20
             radius: 7
         }
         contentItem: RowLayout {

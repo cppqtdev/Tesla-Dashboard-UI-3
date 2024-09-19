@@ -104,5 +104,19 @@
         <file>icons/car_action_icons/Power.svg</file>
         <file>Components/LaunchPadControl.qml</file>
         <file>Components/LauncherButton.qml</file>
+        <file>NavigationMapScreen.qml</file>
+        <file>NavigationMapHelperScreen.qml</file>
+        <file>LayoutManager.js</file>
+        <file>Map/CarMarker.png</file>
+        <file>Map/LocationMarker.png</file>
+        <file>Fonts/Unitext Regular.ttf</file>
+        <file>icons/light/sidebar.png</file>
+        <file>icons/car_action_icons/dark/Power.svg</file>
+        <file>icons/car_action_icons/dark/lock.svg</file>
+        <file>icons/top_header_icons/dark/icons.svg</file>
+        <file>icons/top_header_icons/dark/lock.svg</file>
+        <file>icons/top_header_icons/dark/Sentry.svg</file>
+        <file>animIcons/icons8-car.gif</file>
+        <file>animIcons/icons8-destination.gif</file>
     </qresource>
 </RCC>

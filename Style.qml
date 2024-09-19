@@ -27,7 +27,8 @@ QtObject {
     }
 
 
-    property bool isDark: false
+    property bool isDark: true
+    property bool mapAreaVisible: false
     property string theme: isDark ? "dark" : "light"
 
     function getImageBasedOnTheme() {

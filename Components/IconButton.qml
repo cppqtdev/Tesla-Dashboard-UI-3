@@ -1,7 +1,8 @@
-import QtQuick
-import QtQuick.Controls
-import QtQuick.Layouts
-import Qt5Compat.GraphicalEffects
+import QtQuick 2.9
+import QtQuick.Controls 2.5
+import QtQuick.Layouts 1.3
+import Style 1.0
+import QtGraphicalEffects 1.15
 
 Button {
     id: control

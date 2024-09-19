@@ -1,11 +1,11 @@
-import QtQuick
-import QtQuick.Controls.Basic
-import QtQuick.Layouts
-import Style
-import Qt5Compat.GraphicalEffects
+import QtQuick 2.9
+import QtQuick.Controls 2.5
+import QtQuick.Layouts 1.3
+import Style 1.0
+import QtGraphicalEffects 1.15
 
 Item {
-    height: 84
+    height: 54
     width: parent.width
 
     TopLeftControl {

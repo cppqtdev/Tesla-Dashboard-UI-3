@@ -1,18 +1,20 @@
-import QtQuick
-import QtQuick.Controls
-import QtQuick.Layouts
-import Qt5Compat.GraphicalEffects
+import QtQuick 2.9
+import QtQuick.Controls 2.5
+import QtQuick.Layouts 1.3
+import Style 1.0
+import QtGraphicalEffects 1.15
 
 Button {
     id: control
     property string setIcon : ""
     property bool isGlow: false
+    scale: 1
 
     contentItem: Image {
         horizontalAlignment: Image.AlignHCenter
         verticalAlignment: Image.AlignVCenter
         source: control.icon.source
-        scale: control.pressed ? 0.9 : 1.0
+        scale: control.pressed ? 0.9 : control.scale
         Behavior on scale { NumberAnimation { duration: 200; } }
     }
 

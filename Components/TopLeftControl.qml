@@ -1,7 +1,7 @@
-import QtQuick
-import QtQuick.Controls.Basic
-import QtQuick.Layouts
-import Style
+import QtQuick 2.9
+import QtQuick.Controls 2.5
+import QtQuick.Layouts 1.3
+import Style 1.0
 
 RowLayout {
     id: root
@@ -14,7 +14,7 @@ RowLayout {
         Text {
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
             property bool current: root.index === 0
-            color: current ? "#171717" : Style.black20
+            color: current ? Style.isDark ? Style.white : "#171717" : Style.black20
             text: "P"
             font.family: "Inter"
             font.bold: Font.Bold
@@ -57,7 +57,7 @@ RowLayout {
         }
         Text {
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
-            color: Style.black10
+            color: Style.isDark ? Style.white : Style.black10
             text: qsTr("%0 %").arg(batteryPercentage)
             font.family: "Inter"
             font.bold: Font.Bold
