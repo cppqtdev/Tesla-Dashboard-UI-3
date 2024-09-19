@@ -118,5 +118,6 @@
         <file>icons/top_header_icons/dark/Sentry.svg</file>
         <file>animIcons/icons8-car.gif</file>
         <file>animIcons/icons8-destination.gif</file>
+        <file>icons/dark/sidebar-light.png</file>
     </qresource>
 </RCC>
