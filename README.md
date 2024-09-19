@@ -3,4 +3,4 @@
 ![Tesla Home Screen](https://github.com/cppqtdev/Tesla-Dashboard-UI-3/blob/main/screenshot/1.png)
 ![Tesla Home Screen](https://github.com/cppqtdev/Tesla-Dashboard-UI-3/blob/main/screenshot/2.png)
 ![Tesla Home Screen](https://github.com/cppqtdev/Tesla-Dashboard-UI-3/blob/main/screenshot/3.png)
-![Tesla Home Screen](https://github.com/cppqtdev/Tesla-Dashboard-UI-3/blob/main/screenshot/4.png)
+![Tesla Home Screen](https://github.com/cppqtdev/Tesla-Dashboard-UI-3/blob/main/screenshot/4.png?raw=true)
